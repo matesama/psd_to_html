@@ -1,3 +1,39 @@
-body {
-    background: blue;
+* {
+    margin: 0;
 }
+
+
+#contact_client-section {
+    background-color: #ffffff;
+    color: #413d4b;
+}
+.form {
+    display: flex;
+    flex-direction: column;
+}
+footer {
+    color: blueviolet;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    justify-items: center;
+    align-items: center;
+  }
+  
+.grid-item {
+    display: grid;
+    text-align: center;
+  }
+  
+.grid-item img {
+    width: 200px;
+    height: 200px;
+  }
+  
+.grid-item p {
+    margin-top: 10px;
+  }
+  
