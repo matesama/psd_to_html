@@ -1,39 +1,36 @@
-* {
-    margin: 0;
+body{
+  background-image: url(../psd_to_html/design-assets/bgk-middle.png);
+}
+
+.wrapper{
+  margin-top: 30px;
+  text-align: center;
+  font-size: 12px;
+  color: #fff;
+  margin-bottom: 25px;
 }
 
 
-#contact_client-section {
-    background-color: #ffffff;
-    color: #413d4b;
-}
-.form {
-    display: flex;
-    flex-direction: column;
-}
-footer {
-    color: blueviolet;
+.wrapper .our_team{
+  display: flex;
+  width: auto;
+  justify-content: center;
+
 }
 
-.grid-container {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 20px;
-    justify-items: center;
-    align-items: center;
-  }
-  
-.grid-item {
-    display: grid;
-    text-align: center;
-  }
-  
-.grid-item img {
-    width: 200px;
-    height: 200px;
-  }
-  
-.grid-item p {
-    margin-top: 10px;
-  }
-  
+.wrapper .our_team .team_member{
+  width: 250px;
+  margin: 5px;
+  background: #fff;
+  padding: 20px 10 px;
+}
+
+.wrapper .our_team .team_member .member_img {
+  background: #e9e5fa;
+  max-width: 190px;
+  height: 190px;
+  margin: 0 auto;
+  border-radius: 50%;
+}
+
+
