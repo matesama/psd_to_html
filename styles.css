@@ -18,7 +18,11 @@ header{
 
 .sectionOne{
     display: flex;
-    flex-direction: column;
+   flex-direction: column;
+}
+.align{
+    display: flex;
+    flex-direction: row;
 }
 
 .logoSmall{
@@ -30,15 +34,18 @@ header{
     font-weight: lighter;
     font-size: 35px;
     padding-left: 15px;
+    padding-right: 300px;
 }
 
 .sectionOne nav ul{
     display: flex;
-    justify-content:flex-end;
+    align-items: center;
+    justify-content:center;
     list-style: none;
     font-size: 13px;
     font-weight: bold;
     gap: 10px;
+    padding-top: 20px;
 }
 
 #homeNavLink {
