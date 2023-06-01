@@ -18,9 +18,7 @@
     flex-direction: column;
     width: 30%;
     height: auto;
-    gap: 1rem;
-    
-    
+    gap: 1rem;    
 }
 form input{
     height: 2rem;
@@ -46,9 +44,7 @@ form button{
     gap: 1rem; 
     flex-wrap: wrap;
     width: 30%;
-    height: auto;
-    
-    
+    height: auto;    
 }
 .client-lists h3 {
     width: 100%;
@@ -57,8 +53,6 @@ form button{
     display: flex;
     display: columns;
     gap: 3rem;
-    
-
 }
 .client-lists img {
     height: 60px;
@@ -116,9 +110,9 @@ footer {
     display: flex;
     justify-content: space-between;
     font-size: smaller;
-    font-weight: lighter;
-    
+    font-weight: lighter;    
 }
+
 .left nav ul li a{
     color: #ffffff;
     text-decoration: none;
@@ -129,22 +123,23 @@ footer {
     height: 74%;
     flex-direction: column; 
 }
+
 .middle h3 {
     padding-top: 1rem;
 }
+
 .location {
     display: flex;
     align-items: flex-start;
     gap: 2rem;
     padding-top: 2rem;
-
 }
+
 .telephone {
     display: flex;
     gap: 2rem;
     padding-top: 3rem;
 }
-
 
 .right {
     display: flex;
@@ -153,6 +148,7 @@ footer {
     width: 20%;
     height: 74%;
 }
+
 .right h3{
     padding-top: 1rem;
 }
@@ -163,6 +159,7 @@ footer {
     gap: 1rem;
     
 }
+
 .right input {
     background: transparent;
     border: solid 1px #9d97af;
@@ -170,9 +167,9 @@ footer {
     text-align: center;
     width: 75%;
 }
+
 .right form button {
     border: solid 1px #ffffff;
-     
     width: 25%;
 }
 .right .social-media {
